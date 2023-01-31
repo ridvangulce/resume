@@ -14,6 +14,12 @@ const Home = () => {
     'm',
     'e',
     ' ',
+    '&',
+    ' ',
+    'w',
+    'e',
+    'b',
+    '',
     'd',
     'e',
     'v',
@@ -29,7 +35,7 @@ const Home = () => {
   useEffect(() => {
     return setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
+    }, 6000)
   }, [])
 
   return (
@@ -51,7 +57,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={12}
             />
           </h1>
           <h2>Full-Stack Developer / Game Developer</h2>
